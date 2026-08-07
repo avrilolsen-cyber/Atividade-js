@@ -41,7 +41,9 @@ document.getElementById("btn3").addEventListener("click", () =>{
 // "Novo item" dentro da lista #lista4
 //
 // Dica: use document.createElement() e .appendChild()
-
+document.getElementById("btn4").addEventListener("click", () => {
+    document.getElementById("lista4").appendChild(document.createElement("li")).textContent = "Novo item";  
+});
 
 
 // ---------- Exercicio 5 ----------
